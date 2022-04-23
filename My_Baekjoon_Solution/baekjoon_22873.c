@@ -19,48 +19,8 @@ carry를 저장하는 방법까지 동원하여 for문이 돌아가는 횟수를 줄여봤지만
 이 역시 역부족이었다.
 어떻게 하면 시간을 더 단축할 수 있을까? */
 
+
 int main() {
-	int n, q, split_count, digit, changeTo; char target;
-	char* A, * B, * C; int* A_split, B_split;
-
-	/* 3rd try : 8개씩 쪼개서 숫자로 계산해보기 */
-
-	// n과 q 입력
-	scanf("%d %d", &n, &q);
-
-	// A, B, C 배열 할당
-	A = (char*)malloc(sizeof(char) * (n + 1));
-	B = (char*)malloc(sizeof(char) * (n + 1));
-	C = (char*)malloc(sizeof(char) * (n + 2));
-	// split 배열들은 각 숫자들을 8자리 수로 쪼개 저장하는 배열이다
-	split_count = (n % 8 == 0) ? (n / 8) : (n / 8 + 1);
-	// A_split과 B_split 배열 할당
-	A_split = (int*)malloc(sizeof(int) * split_count);
-	B_split = (int*)malloc(sizeof(int) * split_count);
-
-	// A, B 입력
-	scanf("%s%*c", A);
-	scanf("%s%*c", B);
-
-	// C 계산
-	
-
-	// 마무리
-	free(A); 
-	free(B); 
-	free(C);
-	free(A_split);
-	free(B_split);
-}
-
-
-
-
-
-
-
-
-/*int main() {
 	
 	// 2nd try
 
@@ -162,7 +122,7 @@ int main() {
 	free(B);
 	free(C);
 	free(cry);
-}*/
+}
 
 // 1st try: 숫자로서 접근했을 때
 
