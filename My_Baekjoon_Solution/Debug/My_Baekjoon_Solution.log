@@ -1,0 +1,6 @@
+﻿  baekjoon_22873.c
+C:\Users\장원태\source\repos\My_Baekjoon_Solution\My_Baekjoon_Solution\baekjoon_22873.c(33,2): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\장원태\source\repos\My_Baekjoon_Solution\My_Baekjoon_Solution\baekjoon_22873.c(42,2): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\장원태\source\repos\My_Baekjoon_Solution\My_Baekjoon_Solution\baekjoon_22873.c(43,2): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\장원태\source\repos\My_Baekjoon_Solution\My_Baekjoon_Solution\baekjoon_22873.c(72,3): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  My_Baekjoon_Solution.vcxproj -> C:\Users\장원태\source\repos\My_Baekjoon_Solution\Debug\My_Baekjoon_Solution.exe
